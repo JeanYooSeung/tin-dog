@@ -1,42 +1,34 @@
-@import './style2.css';
-
 
 body{
     font-family:"Montserrat";
-}
-
-#title{
-    background-color:#ff4c68;
-    color:#fff;
+    text-align:center;
 }
 
 .container-fluid{
-    padding:3% 15% 7%;
+    padding:7% 15%;
 }
 
-h1{font-size:3.5rem;
-font-family:"Montserrat-black";
-line-height:1.5;
-font-weight:bold;
-}
 
-h2{
+h1,h2,h3,h4,h5,h6{
     font-family:"Montsaerrat-Bold";
-    font-weight:Bold;
-    font-size:3rem;
-    line-height:1.5;
+    font-weight:900;
 }
 
-h3{
-    font-family:"Montserrat-Bold";
-    font-size:1.5rem;
-    font-weight:bold;
-}
 
 p{
     color:#8f8f8f;
 }
+.big-heading{
+    font-size:3.5rem;
+    font-family:"Montserrat-black";
+    line-height:1.5;
+    font-weight:bold;
+}
 
+.section-heading{
+    font-size:3rem;
+    line-height:1.5 ;
+}
 
 /*Navigation Bar*/
 
@@ -63,6 +55,16 @@ p{
     margin:5% 3% 5% 0;
 }
 
+#title{
+    background-color:#ff4c68;
+    color:#fff;
+    text-align:left;
+}
+
+#title .container{
+    padding:3% 15% 7%;
+}
+
 .title-image{
     width:60%;
     transform:rotate(25deg);
@@ -71,14 +73,16 @@ p{
 }
 
 #features{
-    padding:7% 15%;
     background-color:#fff;
     position:relative;
 }
 
 .feature-box{
-    text-align:center;
     padding: 7%;
+}
+
+.feature-text{
+    font-size:1.5rem;
 }
 
 .icon{
@@ -91,7 +95,6 @@ p{
 }
 
 #testimonials{
-    text-align: center;
     background-color:#ef8172 ;
     color:#fff;
 }
@@ -102,13 +105,13 @@ p{
     margin:20px;
 }
 
-.carousel-item{
-    padding:7% 15%;
+.testimonial-text{
+    font-size:3rem;
+    line-height:1.5;
 }
 
 
 #press{
-    text-align:center;
     background-color:#ef8172;
     padding-bottom:3%;
 }
@@ -120,8 +123,13 @@ p{
 
 #pricing{
     padding:100px;
-    text-align:center;
 }
+
+.price-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
 .pricing-column{
     padding:3% 2%; 
 }
@@ -130,23 +138,6 @@ p{
 #cta{
     background-color:#ff4c68;
     color:#fff;
-    padding:7% 15%;
-    text-align:center;
-}
-.cta-heading{
-    font-family:"Montserrat-Black";
-    font-weight:900;
-    font-size:3.5rem;
-    line-height:1.5;
-}
-
-
-
-
-#footer{
-    padding:7% 15%;
-    text-align:center;
-
 }
 
 .soscial-icon{
